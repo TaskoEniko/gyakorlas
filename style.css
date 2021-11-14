@@ -2,6 +2,36 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto ;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif
+}
 
+.newletter h3{
+    margin-top: 0;
+}
+
+.newletter {
+    color:grey;
+    border: solid thin #cfcfcf;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.newletter button {
+    background-color: #jcb878;
+    border: none;
+    color: white; 
+    display: block;
+    width: 100%;
+    height: 10px;
+}
+
+.newletter input{
+    display: block;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 4px;
+    border: solid  #cfcfcf 1px;
+    border-radius: 3px;
+
+    box-sizing: border-box;
 }
