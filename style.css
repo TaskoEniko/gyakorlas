@@ -15,7 +15,7 @@
     border-radius: 3px;
     padding: 10px;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .newletter button {
@@ -60,4 +60,30 @@
     position:fixed ;
     bottom: 10px;
     right: 10px;
+    box-shadow: 0 0 4px 4px gray;
+}
+
+.card {
+    background-color: #3cb878;
+    width: 180px;
+    text-align : center;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0px 0px 7px 2px grey;
+    margin-bottom: 40px;
+
+}
+
+.card h3 {
+    margin-bottom:0;
+    margin-top: 10px;
+}
+
+#card-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
